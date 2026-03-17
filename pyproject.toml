@@ -1,0 +1,12 @@
+[project]
+name = "support-bot"
+version = "0.1.0"
+description = "Telegram support bot: bot-first support flow for @GPT4Telegrambot"
+requires-python = ">=3.11"
+dependencies = [
+  "python-telegram-bot>=21.0,<22.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
